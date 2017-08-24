@@ -1,0 +1,16 @@
+ol {
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+ol {
+    color: #ccc;
+    background: #F7F7F7;
+    margin: 0;
+    padding: 0 0 0 55px;
+}

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Pastebin Expansion",
+  "description": "TweetDeckのpastebinリンクの展開",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://tweetdeck.twitter.com/*","https://pastebin.com/*"],
+      "js": ["jquery-3.2.1.min.js","pasteexpan.js"],
+      "css":["pasteexpan.css"]
+    }
+  ]
+
+}
